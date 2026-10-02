@@ -7,11 +7,18 @@
 // titled "number" to have the value of 10. Finally, console log "The number is now 10."
 // C: Coding time under there :D
 
-let number = 6;
-if(number <= 4 && number >= 0){
+let number = 5;
+if(number < 5 && number >= 0){
     number = 0;
     console.log("The  number is now 0.")
-}else if(number >= 5){
+
+}else if(number > 5 && number <= 10 ){
     number = 10;
     console.log("The number is now 10.")
+
+}else if (number === 5){
+    console.log("The number is now 5")
+}else {
+    number = NaN
+     console.log("The number is now NaN.")
 }
